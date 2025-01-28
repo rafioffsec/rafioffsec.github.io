@@ -3,7 +3,7 @@ layout: page
 title: About
 ---
 
-# Muhammad Rafi Akbar
+# About Me - RafiOffsec
 
 My name is Muhammad Rafi Akbar, and I focus on cybersecurity with an emphasis on ethical hacking and red teaming research. I am currently studying Informatics at Universitas Siber Asia. I have a strong interest in exploring digital systems and identifying security vulnerabilities that could be exploited by malicious actors. I am committed to expanding my knowledge in cybersecurity and continuously learning to contribute to creating a safer digital environment.
 
@@ -13,7 +13,7 @@ In addition, I also manage my personal website, RafiOffsec, which I created to s
 
 **Social Media:**
 
-[![GitHub](icons/github.png)](https://github.com/rafioffsec)
+[![GitHub](https://github.com/hussainweb/hussainweb/blob/main/icons/github.png)](https://github.com/rafioffsec)
 [![YouTube](icons/youtube.png)](https://youtube.com/user/rafioffsec)
 [![Twitter](icons/twitter.png)](https://twitter.com/rafioffsec)
 [![LinkedIn](icons/linkedin.png)](https://www.linkedin.com/id/m-rafi-akbr/)
