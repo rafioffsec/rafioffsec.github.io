@@ -13,7 +13,7 @@ In addition, I also manage my personal website, RafiOffsec, which I created to s
 
 **Social Media:**
 
-[![GitHub]](https://github.com/rafioffsec)
-[![YouTube]](https://youtube.com/user/rafioffsec)
-[![Twitter]](https://twitter.com/rafioffsec)
-[![LinkedIn](icons/linkedin.png)](https://www.linkedin.com/id/m-rafi-akbr/)
+[GitHub](https://github.com/rafioffsec)
+[YouTube](https://youtube.com/user/rafioffsec)
+[Twitter](https://twitter.com/rafioffsec)
+[LinkedIn](https://www.linkedin.com/id/m-rafi-akbr/)
