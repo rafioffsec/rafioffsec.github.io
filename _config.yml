@@ -1,9 +1,9 @@
-title: Hacker-Blog
-description: "A Jekyll Blog Theme For Hackers"
+title: RafiOffsec
+description: "Researching the Depths of Hacking and Cybersecurity"
 author:
-  name: "SomeHacker"
-  email: "someone@somewebsite.somedomain"
-  url: "https://ashishchaudhary.in/hacker-blog"
+  name: "Muhammad_Rafi_Akbar"
+  email: "rafioffsec@proton.me"
+  url: "https://rafioffsec.github.io"
 
 baseurl: /
 
