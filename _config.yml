@@ -1,0 +1,31 @@
+title: Rafi Offsec
+url: "https://rafioffsec.github.io"
+baseurl: ""
+
+markdown: kramdown
+ins_logo: "./bits-logo.png"
+
+tracking_id: #
+
+footer: yes
+footer_url: "https://github.com/rafioffsec"
+footer_text: "© Rafi Offsec 2025"
+
+sass:
+    style: compressed
+    sass_dir: _sass
+
+nav:
+  - name: "About"
+    link: ""
+  - name: "Resume"
+    link: "/"
+  - name: "Contact"
+    link: "/contact/"
+  - name: "Posts"
+    link: "/posts/"
+
+collections:
+  posts:
+    output: true
+    permalink: /posts/:title/
