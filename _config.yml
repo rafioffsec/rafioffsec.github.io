@@ -21,7 +21,7 @@ nav:
   - name: "Resume"
     link: "/"
   - name: "Contact"
-    link: "/contact/contact.md"
+    link: "/contact/"
   - name: "Posts"
     link: "/posts/"
 
