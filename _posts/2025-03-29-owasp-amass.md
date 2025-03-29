@@ -1,9 +1,9 @@
 ---
 layout: post
-title: "Information Gathering - OWASP Amass"
+title: "OWASP Amass"
 date: 2025-03-28
 categories: general
-permalink: /posts/information-gathering-owasp-amass/
+permalink: /posts/owasp-amass/
 ---
 
 ### Apa itu OWASP Amass? 
