@@ -1,23 +1,24 @@
 @import "vars";
 
-/* Dark Mode Base */
+/* Basic */
 html {
   height: 100%;
   margin: 0;
   padding: 0;
   background: #121212;
-  color: #e0e0e0;
 }
 
 body {
   margin: 0;
   font-family: "Inconsolata";
   height: 100%;
+  color: #e0e0e0;
+  background: #121212;
 }
 
 a {
   text-decoration: none;
-  color: #81a2be;
+  color: $accent;
 }
 
 a:hover {
@@ -34,14 +35,13 @@ hr {
 /* Navbar */
 #author-name {
   font-size: 30px;
-  color: #f8f8f2;
+  color: #e0e0e0;
   display: inline-block;
 }
 
 .navbar {
   padding: 50px 0;
   background: #1e1e1e;
-  border-bottom: 1px solid #333;
 }
 
 .navbar-ul {
@@ -56,30 +56,6 @@ hr {
   margin: 0 5px 0 10px;
 }
 
-.alignable {
-  display: inline-block;
-}
-
-.pull-left {
-  @extend .alignable;
-  float: left;
-}
-
-.pull-right {
-  @extend .alignable;
-  float: right;
-}
-
-/* Container */
-.container {
-  max-width: $max-width;
-  margin: auto;
-}
-
-.wrapper {
-  min-height: 100%;
-}
-
 /* Tables */
 table {
   width: 100%;
@@ -87,28 +63,23 @@ table {
   background: #1e1e1e;
   color: #e0e0e0;
 }
-th, td {
-  border: 1px solid #333;
+
+thead {
+  background: #292929;
+}
+
+td, th {
   padding: 10px;
-}
-th {
-  background: #333;
+  border: 1px solid #3a3a3a;
 }
 
-td {
-  background: #222;
-}
-
-/* Blockquote */
+/* Markdown Elements */
 blockquote {
   border-left: 4px solid #81a2be;
   padding: 10px 20px;
-  margin: 20px 0;
   background: #1e1e1e;
-  color: #b5bd68;
 }
 
-/* Code Blocks */
 pre {
   background: #2d2d2d;
   color: #ccc;
@@ -133,75 +104,35 @@ pre code {
 .token.comment, .token.prolog, .token.doctype, .token.cdata {
   color: #7C7C7C;
 }
+
 .token.punctuation {
   color: #c5c8c6;
 }
+
 .token.property, .token.tag, .token.constant, .token.symbol, .token.deleted {
   color: #cc6666;
 }
+
 .token.boolean, .token.number {
   color: #de935f;
 }
+
 .token.selector, .token.attr-name, .token.string, .token.char, .token.builtin, .token.inserted {
   color: #b5bd68;
 }
+
 .token.operator, .token.entity, .token.url, .token.variable {
   color: #f8f8f2;
 }
+
 .token.atrule, .token.keyword {
   color: #81a2be;
 }
+
 .token.function {
   color: #f0c674;
 }
+
 .token.regex, .token.important {
   color: #8abeb7;
 }
-
-/* Mobile */
-@media (max-width: 800px) {
-  .container {
-    max-width: $med-width;
-    transition: 0.3s ease all;
-  }
-}
-
-@media (max-width: 650px) {
-  .container {
-    max-width: 83%;
-  }
-  .navbar-ul {
-    margin-top: 5px;
-  }
-}
-
-@media (max-width: 500px) {
-  .navbar {
-    text-align: center;
-    padding: 50px 0px 0px 0px;
-  }
-  #author-name {
-    width: 100%;
-    float: none;
-  }
-  #navlist {
-    padding: 10px 0;
-    margin: 0;
-    display: block;
-    float: none;
-    text-align: center;
-    width: 100%;
-  }
-  #navlist li.alignable {
-    display: inline-block;
-  }
-  #navlist li.pull-left {
-    float: none;
-  }
-  #navlist li.nav-list {
-    margin: 0;
-  }
-}
-
-@import "typography";
-@import "tables";
